@@ -1,0 +1,5 @@
+class matrix
+{
+public:
+	matrix();
+};

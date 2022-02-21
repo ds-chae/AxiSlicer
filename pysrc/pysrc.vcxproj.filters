@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cura_14.01\Cura\cura.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\__init__.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\__init__.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\aboutWindow.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\alterationPanel.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\app.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\configBase.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\configWizard.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\expertConfig.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\firmwareInstall.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\mainWindow.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\newVersionDialog.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\pluginPanel.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\preferencesDialog.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\printWindow.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\printWindow2.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\sceneView.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\simpleMode.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\splashScreen.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\tools\__init__.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\tools\batchRun.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\tools\imageToMesh.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\tools\minecraftImport.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\tools\pidDebugger.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\tools\youmagineGui.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\__init__.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\dropTarget.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\gcodeTextArea.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\opengl.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\openglGui.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\previewTools.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\taskbar.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\toolbarUtil.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\gui\util\webcam.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\drawingLoader\__init__.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\drawingLoader\drawing.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\drawingLoader\dxf.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\drawingLoader\svg.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\meshLoaders\__init__.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\meshLoaders\amf.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\meshLoaders\dae.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\meshLoaders\obj.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\meshLoaders\stl.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\printerConnection\__init__.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\printerConnection\doodle3dConnect.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\printerConnection\dummyConnection.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\printerConnection\printerConnectionBase.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Cura_14.01\Cura\util\printerConnection\printerConnectionManager.py">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

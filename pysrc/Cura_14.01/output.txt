@@ -1,0 +1,28 @@
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Cura_14.01\python\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Program Files (x86)\Cura_14.01\python\lib\threading.py", line 505, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cura\gui\app.py", line 67, in Win32SocketListener
+    sock.bind(("127.0.0.1", port))
+  File "C:\Program Files (x86)\Cura_14.01\python\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 10048] 각 소켓 주소(프로토콜/네트워크 주소/포트)
+
+# Generating comtypes.gen._683BF642_E9CA_4124_BE43_67065B2FA653_0_1_0
+# Generating comtypes.gen.TaskbarLib
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Cura_14.01\python\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Program Files (x86)\Cura_14.01\python\lib\threading.py", line 505, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cura\gui\app.py", line 67, in Win32SocketListener
+    sock.bind(("127.0.0.1", port))
+  File "C:\Program Files (x86)\Cura_14.01\python\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 10048] 각 소켓 주소(프로토콜/네트워크 주소/포트)
+
+# Generating comtypes.gen._683BF642_E9CA_4124_BE43_67065B2FA653_0_1_0
+# Generating comtypes.gen.TaskbarLib

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AxiSlicer", "AxiSlicer\AxiSlicer.vcxproj", "{38C30C78-1154-4FBC-A181-EF1AB25B4158}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pysrc", "pysrc\pysrc.vcxproj", "{9E520EF3-28A7-4079-A5F8-A64A6EA306F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLTest", "OpenGLTest\OpenGLTest.vcxproj", "{3848C18F-A52F-4D38-A561-DA12E088A326}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sengine", "sengine\sengine.vcxproj", "{399BA968-C6F9-4A7C-946C-400E71028E15}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editgcode", "editgcode\editgcode.vcxproj", "{7AA9523F-FC36-4799-9316-E58DB3A34EF7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gcodegen", "gcodegen\gcodegen.vcxproj", "{139A8716-1F7C-4A83-BAA2-F14C76B71307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38C30C78-1154-4FBC-A181-EF1AB25B4158}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38C30C78-1154-4FBC-A181-EF1AB25B4158}.Debug|Win32.Build.0 = Debug|Win32
+		{38C30C78-1154-4FBC-A181-EF1AB25B4158}.Release|Win32.ActiveCfg = Release|Win32
+		{38C30C78-1154-4FBC-A181-EF1AB25B4158}.Release|Win32.Build.0 = Release|Win32
+		{9E520EF3-28A7-4079-A5F8-A64A6EA306F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E520EF3-28A7-4079-A5F8-A64A6EA306F8}.Debug|Win32.Build.0 = Debug|Win32
+		{9E520EF3-28A7-4079-A5F8-A64A6EA306F8}.Release|Win32.ActiveCfg = Release|Win32
+		{9E520EF3-28A7-4079-A5F8-A64A6EA306F8}.Release|Win32.Build.0 = Release|Win32
+		{3848C18F-A52F-4D38-A561-DA12E088A326}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3848C18F-A52F-4D38-A561-DA12E088A326}.Debug|Win32.Build.0 = Debug|Win32
+		{3848C18F-A52F-4D38-A561-DA12E088A326}.Release|Win32.ActiveCfg = Release|Win32
+		{3848C18F-A52F-4D38-A561-DA12E088A326}.Release|Win32.Build.0 = Release|Win32
+		{399BA968-C6F9-4A7C-946C-400E71028E15}.Debug|Win32.ActiveCfg = Debug|Win32
+		{399BA968-C6F9-4A7C-946C-400E71028E15}.Debug|Win32.Build.0 = Debug|Win32
+		{399BA968-C6F9-4A7C-946C-400E71028E15}.Release|Win32.ActiveCfg = Release|Win32
+		{399BA968-C6F9-4A7C-946C-400E71028E15}.Release|Win32.Build.0 = Release|Win32
+		{7AA9523F-FC36-4799-9316-E58DB3A34EF7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7AA9523F-FC36-4799-9316-E58DB3A34EF7}.Debug|Win32.Build.0 = Debug|Win32
+		{7AA9523F-FC36-4799-9316-E58DB3A34EF7}.Release|Win32.ActiveCfg = Release|Win32
+		{7AA9523F-FC36-4799-9316-E58DB3A34EF7}.Release|Win32.Build.0 = Release|Win32
+		{139A8716-1F7C-4A83-BAA2-F14C76B71307}.Debug|Win32.ActiveCfg = Debug|Win32
+		{139A8716-1F7C-4A83-BAA2-F14C76B71307}.Debug|Win32.Build.0 = Debug|Win32
+		{139A8716-1F7C-4A83-BAA2-F14C76B71307}.Release|Win32.ActiveCfg = Release|Win32
+		{139A8716-1F7C-4A83-BAA2-F14C76B71307}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

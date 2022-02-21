@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E520EF3-28A7-4079-A5F8-A64A6EA306F8}</ProjectGuid>
+    <RootNamespace>pysrc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Cura_14.01\Cura\cura.py" />
+    <None Include="Cura_14.01\Cura\gui\aboutWindow.py" />
+    <None Include="Cura_14.01\Cura\gui\alterationPanel.py" />
+    <None Include="Cura_14.01\Cura\gui\app.py" />
+    <None Include="Cura_14.01\Cura\gui\configBase.py" />
+    <None Include="Cura_14.01\Cura\gui\configWizard.py" />
+    <None Include="Cura_14.01\Cura\gui\expertConfig.py" />
+    <None Include="Cura_14.01\Cura\gui\firmwareInstall.py" />
+    <None Include="Cura_14.01\Cura\gui\mainWindow.py" />
+    <None Include="Cura_14.01\Cura\gui\newVersionDialog.py" />
+    <None Include="Cura_14.01\Cura\gui\pluginPanel.py" />
+    <None Include="Cura_14.01\Cura\gui\preferencesDialog.py" />
+    <None Include="Cura_14.01\Cura\gui\printWindow.py" />
+    <None Include="Cura_14.01\Cura\gui\printWindow2.py" />
+    <None Include="Cura_14.01\Cura\gui\sceneView.py" />
+    <None Include="Cura_14.01\Cura\gui\simpleMode.py" />
+    <None Include="Cura_14.01\Cura\gui\splashScreen.py" />
+    <None Include="Cura_14.01\Cura\gui\tools\batchRun.py" />
+    <None Include="Cura_14.01\Cura\gui\tools\imageToMesh.py" />
+    <None Include="Cura_14.01\Cura\gui\tools\minecraftImport.py" />
+    <None Include="Cura_14.01\Cura\gui\tools\pidDebugger.py" />
+    <None Include="Cura_14.01\Cura\gui\tools\youmagineGui.py" />
+    <None Include="Cura_14.01\Cura\gui\tools\__init__.py" />
+    <None Include="Cura_14.01\Cura\gui\util\dropTarget.py" />
+    <None Include="Cura_14.01\Cura\gui\util\gcodeTextArea.py" />
+    <None Include="Cura_14.01\Cura\gui\util\opengl.py" />
+    <None Include="Cura_14.01\Cura\gui\util\openglGui.py" />
+    <None Include="Cura_14.01\Cura\gui\util\previewTools.py" />
+    <None Include="Cura_14.01\Cura\gui\util\taskbar.py" />
+    <None Include="Cura_14.01\Cura\gui\util\toolbarUtil.py" />
+    <None Include="Cura_14.01\Cura\gui\util\webcam.py" />
+    <None Include="Cura_14.01\Cura\gui\util\__init__.py" />
+    <None Include="Cura_14.01\Cura\gui\__init__.py" />
+    <None Include="Cura_14.01\Cura\util\drawingLoader\drawing.py" />
+    <None Include="Cura_14.01\Cura\util\drawingLoader\dxf.py" />
+    <None Include="Cura_14.01\Cura\util\drawingLoader\svg.py" />
+    <None Include="Cura_14.01\Cura\util\drawingLoader\__init__.py" />
+    <None Include="Cura_14.01\Cura\util\meshLoaders\amf.py" />
+    <None Include="Cura_14.01\Cura\util\meshLoaders\dae.py" />
+    <None Include="Cura_14.01\Cura\util\meshLoaders\obj.py" />
+    <None Include="Cura_14.01\Cura\util\meshLoaders\stl.py" />
+    <None Include="Cura_14.01\Cura\util\meshLoaders\__init__.py" />
+    <None Include="Cura_14.01\Cura\util\printerConnection\doodle3dConnect.py" />
+    <None Include="Cura_14.01\Cura\util\printerConnection\dummyConnection.py" />
+    <None Include="Cura_14.01\Cura\util\printerConnection\printerConnectionBase.py" />
+    <None Include="Cura_14.01\Cura\util\printerConnection\printerConnectionManager.py" />
+    <None Include="Cura_14.01\Cura\util\printerConnection\__init__.py" />
+    <None Include="Cura_14.01\Cura\__init__.py" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

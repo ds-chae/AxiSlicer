@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{399BA968-C6F9-4A7C-946C-400E71028E15}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sengine</RootNamespace>
+    <ProjectName>sengine</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="master\LICENSE" />
+    <None Include="master\Makefile" />
+    <None Include="master\README.md" />
+    <None Include="master\run_tests.py" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="master\bridge.h" />
+    <ClInclude Include="master\clipper\clipper.hpp" />
+    <ClInclude Include="master\comb.h" />
+    <ClInclude Include="master\fffProcessor.h" />
+    <ClInclude Include="master\gcodeExport.h" />
+    <ClInclude Include="master\infill.h" />
+    <ClInclude Include="master\inset.h" />
+    <ClInclude Include="master\layerPart.h" />
+    <ClInclude Include="master\modelFile\modelFile.h" />
+    <ClInclude Include="master\multiVolumes.h" />
+    <ClInclude Include="master\optimizedModel.h" />
+    <ClInclude Include="master\pathOrderOptimizer.h" />
+    <ClInclude Include="master\polygonOptimizer.h" />
+    <ClInclude Include="master\raft.h" />
+    <ClInclude Include="master\settings.h" />
+    <ClInclude Include="master\skin.h" />
+    <ClInclude Include="master\skirt.h" />
+    <ClInclude Include="master\sliceDataStorage.h" />
+    <ClInclude Include="master\slicer.h" />
+    <ClInclude Include="master\support.h" />
+    <ClInclude Include="master\timeEstimate.h" />
+    <ClInclude Include="master\utils\floatpoint.h" />
+    <ClInclude Include="master\utils\gettime.h" />
+    <ClInclude Include="master\utils\intpoint.h" />
+    <ClInclude Include="master\utils\logoutput.h" />
+    <ClInclude Include="master\utils\polygon.h" />
+    <ClInclude Include="master\utils\polygondebug.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sengine.cpp" />
+    <ClCompile Include="master\bridge.cpp" />
+    <ClCompile Include="master\clipper\clipper.cpp" />
+    <ClCompile Include="master\comb.cpp" />
+    <ClCompile Include="master\gcodeExport.cpp" />
+    <ClCompile Include="master\infill.cpp" />
+    <ClCompile Include="master\inset.cpp" />
+    <ClCompile Include="master\layerPart.cpp" />
+    <ClCompile Include="master\main.cpp" />
+    <ClCompile Include="master\modelFile\modelFile.cpp" />
+    <ClCompile Include="master\optimizedModel.cpp" />
+    <ClCompile Include="master\pathOrderOptimizer.cpp" />
+    <ClCompile Include="master\polygonOptimizer.cpp" />
+    <ClCompile Include="master\raft.cpp" />
+    <ClCompile Include="master\settings.cpp" />
+    <ClCompile Include="master\skin.cpp" />
+    <ClCompile Include="master\skirt.cpp" />
+    <ClCompile Include="master\slicer.cpp" />
+    <ClCompile Include="master\support.cpp" />
+    <ClCompile Include="master\timeEstimate.cpp" />
+    <ClCompile Include="master\utils\gettime.cpp" />
+    <ClCompile Include="master\utils\logoutput.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
